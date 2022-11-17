@@ -29,6 +29,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63BE736329267DA900E09100 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF40BA1B4FE6D50060F1B8 /* HCSStarRatingView.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
 		B6AF407F1B4FE3260060F1B8 = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +56,7 @@
 		B6AF408B1B4FE3260060F1B8 /* HCSStarRatingView */ = {
 			isa = PBXGroup;
 			children = (
-				B6AF40BA1B4FE6D50060F1B8 /* HCSStarRatingView.h */,
+				63BE736329267DA900E09100 /* include */,
 				B6AF40BB1B4FE6D50060F1B8 /* HCSStarRatingView.m */,
 				B6AF408C1B4FE3260060F1B8 /* Supporting Files */,
 			);
@@ -114,6 +122,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B6AF407F1B4FE3260060F1B8;
